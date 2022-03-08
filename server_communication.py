@@ -48,7 +48,7 @@ def recv_message(uco: int) -> Mapping[str, Union[int, bytes]]:
 
     :param uco: the UCO of the addressee/receiver
 
-    :return: a dictionar where keys are UCO of senders and values are their messages
+    :return: a dictionary where keys are UCO of senders and values are their messages
 
     Example:
     >>> messages = recv_message(uco=987654)
